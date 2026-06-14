@@ -1,80 +1,104 @@
 {
-    "countries": [
-      {
-        "id": 1,
-        "name": "Australia",
-        "cities": [
-          {
-            "name": "Sydney, Australia",
-            "imageUrl": "sydney.jpg",
-            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
-          },
-          {
-            "name": "Melbourne, Australia",
-            "imageUrl": "melbourne.jpg",
-            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Japan",
-        "cities": [
-          {
-            "name": "Tokyo, Japan",
-            "imageUrl": "tokyo.jpg",
-            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
-          },
-          {
-            "name": "Kyoto, Japan",
-            "imageUrl": "kyoto.jpg",
-            "description": "Known for its historic temples, gardens, and traditional tea houses."
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Brazil",
-        "cities": [
-          {
-            "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "rio.jpg",
-            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
-          },
-          {
-            "name": "São Paulo, Brazil",
-            "imageUrl": "sao-paulo.jpg",
-            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
-          }
-        ]
-      }
-    ],
-    "temples": [
-      {
-        "id": 1,
-        "name": "Angkor Wat, Cambodia",
-        "imageUrl": "Angkor Wat.jpg",
-        "description": "A UNESCO World Heritage site and the largest religious monument in the world."
-      },
-      {
-        "id": 2,
-        "name": "Taj Mahal, India",
-        "imageUrl": "Taj Mahal.jpg",
-        "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
-      }
-    ],
-    "beaches": [
-      {
-        "id": 1,
-        "name": "Bora Bora, French Polynesia",
-        "imageUrl": "Bora_Bora.jpg",
-        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
-      },
-      {
-        "id": 2,
-        "name": "Copacabana Beach, Brazil",
-        "imageUrl": "Copacabana.jpg",
-        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
-      }
-    ]
-  }
+  "destinations": [
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "country": "Australia",
+      "category": "city",
+      "imageUrl": "sydney.jpg",
+      "timeZone": "Australia/Sydney",
+      "tags": ["harbour", "opera house", "beaches"],
+      "description": "A vibrant harbour city known for its iconic Opera House, the Harbour Bridge, and golden coastal beaches."
+    },
+    {
+      "id": "melbourne",
+      "name": "Melbourne",
+      "country": "Australia",
+      "category": "city",
+      "imageUrl": "melbourne.jpg",
+      "timeZone": "Australia/Melbourne",
+      "tags": ["art", "coffee", "laneways"],
+      "description": "A cultural hub famous for its street art, world-class coffee, hidden laneways, and diverse neighbourhoods."
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "country": "Japan",
+      "category": "city",
+      "imageUrl": "tokyo.jpg",
+      "timeZone": "Asia/Tokyo",
+      "tags": ["modern", "cherry blossom", "food"],
+      "description": "A bustling metropolis blending tradition and modernity, famous for cherry blossoms, neon districts, and incredible food."
+    },
+    {
+      "id": "kyoto",
+      "name": "Kyoto",
+      "country": "Japan",
+      "category": "temple",
+      "imageUrl": "kyoto.jpg",
+      "timeZone": "Asia/Tokyo",
+      "tags": ["temples", "gardens", "tea houses"],
+      "description": "The ancient capital, known for its historic temples, zen gardens, geisha districts, and traditional tea houses."
+    },
+    {
+      "id": "rio",
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "category": "city",
+      "imageUrl": "rio.jpg",
+      "timeZone": "America/Sao_Paulo",
+      "tags": ["carnival", "beaches", "mountains"],
+      "description": "A lively city of stunning beaches, vibrant carnival celebrations, and the iconic Christ the Redeemer statue."
+    },
+    {
+      "id": "sao-paulo",
+      "name": "São Paulo",
+      "country": "Brazil",
+      "category": "city",
+      "imageUrl": "sao-paulo.jpg",
+      "timeZone": "America/Sao_Paulo",
+      "tags": ["nightlife", "arts", "food"],
+      "description": "Brazil's financial powerhouse, with a diverse food scene, thriving arts, and a legendary nightlife."
+    },
+    {
+      "id": "angkor-wat",
+      "name": "Angkor Wat",
+      "country": "Cambodia",
+      "category": "temple",
+      "imageUrl": "Angkor Wat.jpg",
+      "timeZone": "Asia/Phnom_Penh",
+      "tags": ["unesco", "history", "sunrise"],
+      "description": "A UNESCO World Heritage site and the largest religious monument in the world, breathtaking at sunrise."
+    },
+    {
+      "id": "taj-mahal",
+      "name": "Taj Mahal",
+      "country": "India",
+      "category": "temple",
+      "imageUrl": "Taj Mahal.jpg",
+      "timeZone": "Asia/Kolkata",
+      "tags": ["unesco", "architecture", "history"],
+      "description": "An iconic symbol of love and a masterpiece of Mughal architecture, carved entirely in white marble."
+    },
+    {
+      "id": "bora-bora",
+      "name": "Bora Bora",
+      "country": "French Polynesia",
+      "category": "beach",
+      "imageUrl": "Bora_Bora.jpg",
+      "timeZone": "Pacific/Tahiti",
+      "tags": ["lagoon", "overwater", "luxury"],
+      "description": "A dream island wrapped in turquoise lagoons and luxurious overwater bungalows."
+    },
+    {
+      "id": "copacabana",
+      "name": "Copacabana Beach",
+      "country": "Brazil",
+      "category": "beach",
+      "imageUrl": "Copacabana.jpg",
+      "timeZone": "America/Sao_Paulo",
+      "tags": ["beach", "lively", "scenic"],
+      "description": "A world-famous Rio beach with a buzzing atmosphere, sweeping views, and golden sand."
+    }
+  ]
+}
