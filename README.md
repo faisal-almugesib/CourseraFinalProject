@@ -4,6 +4,8 @@ A responsive travel-recommendation website — search a keyword (beach, temple, 
 
 **🔗 Live demo: [faisal-almugesib.github.io/CourseraFinalProject](https://faisal-almugesib.github.io/CourseraFinalProject/)**
 
+![Travel Recommender home](docs/home.png)
+
 ## Features
 
 - **Keyword search** across categories (beaches, temples, countries) with simple synonym handling (e.g. "beach"/"beaches")
